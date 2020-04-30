@@ -1,6 +1,6 @@
 # Convert - Online Currency Converter in one Web API Endpoint
 
-*How to set up Convert?
+*How to set up Convert?*
 
 1. Download this repository.
 2. Install if necessary npm on your machine
@@ -8,7 +8,7 @@
 4. Hit 'npm run start-server' to starting running the node server to receive the HTTP GET requests
 One side note: In this project I used as a server http://localhost:3000 but you can of course use any server you like. 
 
-*How to send a request to the API Endpoint?
+*How to send a request to the API Endpoint?*
 
 Example: http://localhost/amount/src_currency/dest_currency/reference_date
 
@@ -27,12 +27,12 @@ There are four parameters to set:
     "currency": "GBP"
   }
   
-*Regarding the Exchange Rates
+*Regarding the Exchange Rates*
  
 The exchange rates are dynamically retrieved when the Convert API Endpoint is started and it automatically retrieves the new exchange rates every minute.
 Keep in mind that it covers the exchange rates of the last 90 days any reference date prior to that date will result in an error.
  
   
- How to automatically test Convert?
+ *How to automatically test Convert?*
  
  Just run the npm script "test" and check whether all the tests have been passed.
