@@ -26,7 +26,7 @@ The request will send back a response with a JSON object like this:
   
 *Regarding the Exchange Rates*
  
-The exchange rates are dynamically retrieved when the Convert API Endpoint is started and it automatically retrieves the new exchange rates every minute.
+The exchange rates come from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml and are dynamically retrieved when the Convert API Endpoint is started and it updates the file automatically every minute.
 Keep in mind that it covers the exchange rates of the last 90 days so any reference date prior to that date will result in an error.
 
  *How to automatically test Convert?*
