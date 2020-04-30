@@ -24,7 +24,7 @@ An example: http://localhost:3000/12/USD/GBP/2020-04-28
   The request will send back a response with a JSON object like this: 
   
   {
-    "amount": 12342342423234,
+    "amount": 9.61,
     "currency": "GBP"
   }
   
