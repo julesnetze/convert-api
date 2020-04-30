@@ -30,9 +30,9 @@ There are four parameters to set:
  Regarding the Exchange Rates
  
 The exchange rates are dynamically retrieved when the Convert API Endpoint is started and it automatically retrieves the new exchange rates every minute.
-Keep in mind that it covers the exchange rates of the last 90 days any reference date prior to that will result in an error.
+Keep in mind that it covers the exchange rates of the last 90 days any reference date prior to that date will result in an error.
  
   
  How to automatically test Convert?
  
- Just run the npm script "test" and checks whether all the tests have been passed.
+ Just run the npm script "test" and check whether all the tests have been passed.
