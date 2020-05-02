@@ -3,7 +3,7 @@
 *How to set up Convert?*
 
 1. Download this repository.
-2. Install if necessary npm on your machine
+2. Install if necessary node.js and npm on your machine
 3. Hit 'npm install' on the terminal to download all the dependencies 
 4. Hit 'npm run start-server' to starting running the node server
 
