@@ -11,19 +11,19 @@ One side note: In the project I used as a server http://localhost:3000 but you c
 
 *How to send a request to the API Endpoint?*
 
+An example: http://localhost:3000/convert/12.35/USD/GBP/2020-04-28
+
 There are four parameters to set:
   - amount: the amount to convert (e.g. 12.35)
-  - src_currency: ISO currency code for the source currency to convert (e.g. EUR, USD, GB)
+  - src_currency: ISO currency code for the source currency to convert (e.g. EUR, USD, GBP)
   - dest_currency: ISO currency code for the destination currency to convert (e.g. EUR, USD, GBP)
   - reference_date: reference date for the exchange rate, in YYYY-MM-DD format
  
 Send a HTTP GET request in the following format: http://localhost:3000/convert/amount/src_currency/dest_currency/reference_date
-
-An example: http://localhost:3000/convert/12/USD/GBP/2020-04-28
-
+  
 The request will send back a response with a JSON object like this: 
 { "amount": 9.61, "currency": "GBP" }
-  
+
 *Regarding the Exchange Rates*
  
 The exchange rates come from https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml and are dynamically retrieved when the Convert API Endpoint is started and it updates the file automatically every minute.
