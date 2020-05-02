@@ -17,9 +17,9 @@ There are four parameters to set:
   - dest_currency: ISO currency code for the destination currency to convert (e.g. EUR, USD, GBP)
   - reference_date: reference date for the exchange rate, in YYYY-MM-DD format
  
-Send a HTTP GET request in the following format: http://localhost:3000/amount/src_currency/dest_currency/reference_date
+Send a HTTP GET request in the following format: http://localhost:3000/convert/amount/src_currency/dest_currency/reference_date
 
-An example: http://localhost:3000/12/USD/GBP/2020-04-28
+An example: http://localhost:3000/convert/12/USD/GBP/2020-04-28
 
 The request will send back a response with a JSON object like this: 
 { "amount": 9.61, "currency": "GBP" }
