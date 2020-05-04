@@ -1,5 +1,5 @@
 {
-  "name": "converter",
+  "name": "convert",
   "version": "1.0.0",
   "description": "Online Currency Converter in one Web API Endpoint ",
   "main": "app.js",
